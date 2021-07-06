@@ -78,7 +78,7 @@ h1 span{
 }
 
 .about__me{
-    background-image: url(/images/shapes/Frame.jpg) !important;
+    background-image: url(images/shapes/Frame.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
