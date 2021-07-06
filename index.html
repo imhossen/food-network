@@ -9,13 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Food Network</title>
 </head>
 
 <body>
+    <section id="header">
+        <div id="logo">
+            <h1><span>FOOD</span> NETWORK</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </section>
+    <!--Hero Section -->
     <section class="container">
         <div class="half__area">
             <h1><span>Skip</span> The Diet,</br> Just Eat Healthy With Food Network</h1>
@@ -29,44 +41,59 @@
             <img src="images/hero-img.png" alt="">
         </div>
     </section>
-    <section class="container about__me">
+    <!--End Hero Section -->
+    <!--About Me Section -->
+    <section class="container about__me" id="about">
         <div class="half__area">
             <img src="images/Man.png" alt="">
         </div>
         <div class="half__area about__text">
             <h1 id="about__heading">About Me</h1>
-            <p id="about__paragraph">Welcome to Food Network. This is a place where I share my passion with the world - delicious healthy recipes. Everything you see here is made from scratch with non-processed natural foods. Most of my recipes are meat, dairy, gluten, and refined-sugar free, and they contain a list of all of the goodness that you will treat your body to by preparing and eating them. Have a healthy day eyeryone!</p>
+            <p class="about__paragraph">Welcome to Food Network. This is a place where I share my passion with the world - delicious healthy recipes. Everything you see here is made from scratch with non-processed natural foods. Most of my recipes are meat, dairy, gluten, and refined-sugar free, and they contain a list of all of the goodness that you will treat your body to by preparing and eating them. Have a healthy day eyeryone!</p>
             <div class="half__cta contact__cta">
                 <a class="button" target="__blank" href="https://github.com/imhossen">Contact me</a>
             </div>
         </div>
     </section>
-    <section class="recipies__area">
+    <!--End About Me Section -->
+    <!--Recipies Blogs Section -->
+    <section id="recipes" class="recipies__area">
         <h2>My Recipes</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p class="about__paragraph add__margin">We are on a mission to nourish your body and change your life. We deliver organic, plant-rich meals and products to doorsteps nationwide.</p>
         <div class="blog__area">
             <div class="blog__content">
-                <img src="images/blog/Project Cover.png" alt="">
-                <h2>Recipie Title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <img src="images/blog/receipes-1.jpg" alt="">
+                <h2>Snap's n Cookies</h2>
+                <p>In this epic tin, limited-time Strawberry Shortcake Caramel Snaps are paired with an assortment of our signature, 'gotta have 'em,' Milk Bar Cookies.</p>
+                <div class="half__cta read__more__cta">
+                    <a class="button" target="__blank" href="https://github.com/imhossen">Read More..</a>
+                </div>
             </div>
             <div class="blog__content">
-                <img src="images/blog/Project Cover-1.png" alt="">
-                <h2>Recipie Title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <img src="images/blog/receipes-2.jpg" alt="">
+                <h2>S'mores Kit</h2>
+                <p>We took the nostalgic flavors of your classic s’more and upped the ante in signature Milk Bar style: this giant deep vanilla cookie cake is....</p>
+                <div class="half__cta read__more__cta">
+                    <a class="button" target="__blank" href="https://github.com/imhossen">Read More..</a>
+                </div>
             </div>
             <div class="blog__content">
-                <img src="images/blog/Project Cover-2.png" alt="">
-                <h2>Recipie Title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-            </div>
-            
+                <img src="images/blog/receipes-3.jpg" alt="">
+                <h2>Sweet Spot</h2>
+                <p>Not too big, but definitely not too small — you’ll always hit The Sweet Spot with this tempting bundle of shareable, snackable Milk Bar classics.</p>
+                <div class="half__cta read__more__cta">
+                    <a class="button" target="__blank" href="https://github.com/imhossen">Read More..</a>
+                </div>
+            </div>  
         </div>
     </section>
+    <!-- End Recipies Blogs Section -->
+    <!--Footer Area-->
     <footer>
         <h1><span>FOOD</span> NETWORK</h1>
         <p>Eat healthy to live healthy. Live healthy to live happy.</p>
     </footer>
+    <!--Footer Area End -->
 </body>
 
 </html>
