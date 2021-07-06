@@ -26,7 +26,7 @@ body{
     color: black;
 }
 #header nav a:hover{
-    color: #463DDE;
+    color: #EE33B4;
 }
 #header nav{
     justify-content: end;
@@ -42,6 +42,11 @@ body{
     margin-top: 70px;
 }
 
+.img{
+    width: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .half__area h1{
     font-size: 55px;
     font-weight: bold;
